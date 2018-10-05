@@ -73,10 +73,16 @@ body{
     background-color: #e9ecef;
 }
 /*Navigation item*/
+.navbar{
+    height: 20mm;
+}
 .nav-item{
     font-size: 5mm;
 }
-
+/*Header style*/
+.display-4{
+    font-size: 45px;
+}
 /* Carousel Slider */
 .carousel-inner img {
     margin: auto;
@@ -84,7 +90,13 @@ body{
 .carousel-item{
     background-color: black;
 }
-
+.carousel-caption h1{
+    font-size: 500%;
+    text-shadow: 1px 1px 10px #000;
+}
+.btn-outline-secondary:hover{
+    background-color: rgba(249,252,255,0.44);
+}
 /*Project list*/
 #pageSetWidth{
     width: 80%;
@@ -93,4 +105,28 @@ body{
 /* Tutoring cards */
 .card{
     background-color: rgba(249, 252, 255, 0.79);
+}
+/*Social media links*/
+.social{
+    font-size: 4.5em;
+    padding: 3rem;
+}
+.fa-facebook{
+     color: #3b5998;
+ }
+.fa-youtube{
+    color: #ff0000;
+}
+.fa-linkedin{
+    color: #0077b5;
+}
+
+.fa-facebook:hover{
+
+}
+.fa-youtube:hover{
+
+}
+.fa-linkedin:hover{
+
 }
