@@ -1,0 +1,19 @@
+<% include ../includes/header.ejs %>
+<script>
+    $(document).ready(function () {
+        $("ul li").removeClass("active");//this will remove the active class from previously active menu item
+        $('#projects').addClass('active');
+    });
+</script>
+
+<div class="container-fluid">
+    <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-12">
+            <h1 class="display-4 text-center">
+                Personal/Academic Projects
+            </h1>
+        </div>
+    </div>
+</div>
+
+<% include ../includes/footer.ejs %>

@@ -1,0 +1,12 @@
+<% include ../includes/header.ejs %>
+<script>
+    $(document).ready(function () {
+        $("ul li").removeClass("active");//this will remove the active class from previously active menu item
+        $('#tutoring').addClass('active');
+    });
+</script>
+<p>
+    This is the tutoring page.
+</p>
+
+<% include ../includes/footer.ejs%>
