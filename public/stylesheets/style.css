@@ -35,7 +35,7 @@ figure {
     height: 100%;
 }
 #fixed {
-    background-image: url('/public/images/mac.png');
+    background-image: url("/public/images/mac.png");
     position: fixed;
     display: block;
     top: 0;
@@ -85,4 +85,12 @@ body{
     background-color: black;
 }
 
-/*Project font*/
+/*Project list*/
+#pageSetWidth{
+    width: 80%;
+}
+
+/* Tutoring cards */
+.card{
+    background-color: rgba(249, 252, 255, 0.79);
+}
