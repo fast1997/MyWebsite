@@ -70,11 +70,12 @@ Extra (xl) large devices (large desktops, 1200px and up)
 */
 /* Main body*/
 body{
-    background-color: #e9ecef;
+    background-color: #f3f6f9;
 }
 /*Navigation item*/
 .navbar{
     height: 20mm;
+    background-color: #292929;
 }
 .nav-item{
     font-size: 5mm;
@@ -99,13 +100,19 @@ body{
     background-color: rgba(249,252,255,0.44);
 }
 /*Project list*/
-#pageSetWidth{
-    width: 80%;
-}
 
 /* Tutoring cards */
 .card{
-    background-color: rgba(249, 252, 255, 0.79);
+    background-color: rgba(243,246,249,0.78);
+}
+/*Tutoring Body Setting*/
+#pageSetWidth{
+    width: 80%;
+}
+/*Home settings*/
+#topHalfHome{
+    height: 483px;
+    margin-top: 80px;
 }
 /*Home cards*/
 #socialCard{
@@ -144,4 +151,9 @@ body{
 #aboutMe{
     width: 60%;
     height: 80mm;
+}
+
+/*Photography footer*/
+.jumbotron{
+    background-color: #f3f6f9;
 }
