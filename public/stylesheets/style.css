@@ -78,6 +78,7 @@ body{
 }
 .nav-item{
     font-size: 5mm;
+    padding: 1em;
 }
 /*Header style*/
 .display-4{
@@ -106,10 +107,18 @@ body{
 .card{
     background-color: rgba(249, 252, 255, 0.79);
 }
+/*Home cards*/
+#socialCard{
+    background-color: rgba(59,89,152,0);
+    width: 200px;
+    height: 250px;
+    padding: 3rem;
+}
 /*Social media links*/
 .social{
-    font-size: 4.5em;
+    font-size: 5em;
     padding: 3rem;
+
 }
 .fa-facebook{
      color: #3b5998;
@@ -122,11 +131,17 @@ body{
 }
 
 .fa-facebook:hover{
-
+    color: rgba(59, 89, 152, 0.69);
 }
 .fa-youtube:hover{
-
+    color: rgba(255, 0, 0, 0.69);
 }
 .fa-linkedin:hover{
+    color: rgba(0, 119, 181, 0.7);
+}
 
+/*About me text*/
+#aboutMe{
+    width: 60%;
+    height: 80mm;
 }
