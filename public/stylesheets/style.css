@@ -74,12 +74,12 @@ body{
 }
 /*Navigation item*/
 .navbar{
-    height: 20mm;
     background-color: #292929;
 }
 .nav-item{
     font-size: 5mm;
     padding: 1em;
+    height: 30%;
 }
 /*Header style*/
 .display-4{
@@ -114,18 +114,19 @@ body{
     height: 483px;
     margin-top: 80px;
 }
-/*Home cards*/
-#socialCard{
-    background-color: rgba(59,89,152,0);
-    width: 200px;
-    height: 250px;
-    padding: 3rem;
+/*Home parts*/
+#aboutMe{
+    margin-top: 12px;
+}
+#socialNetworks{
+    margin-top: 40px;
 }
 /*Social media links*/
 .social{
-    font-size: 5em;
-    padding: 3rem;
-
+    font-size: 3em;
+}
+#socialTitle{
+    font-size: 3em;
 }
 .fa-facebook{
      color: #3b5998;
@@ -147,13 +148,7 @@ body{
     color: rgba(0, 119, 181, 0.7);
 }
 
-/*About me text*/
-#aboutMe{
-    width: 60%;
-    height: 80mm;
-}
-
 /*Photography footer*/
-.jumbotron{
-    background-color: #f3f6f9;
+#bottomHalfPhotography{
+    padding-top: 50px;
 }
