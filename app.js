@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var tutoringRouter = require('./routes/tutoring/tutoring_routes');
+var donationsRouter = require('./routes/donations/donations_routes');
 var projectsRouter = require('./routes/projects/projects_routes');
 var dogsRouter = require('./routes/photography/photography_routes');
 var usersRouter = require('./routes/users');
@@ -27,6 +28,7 @@ app.use('/', indexRouter);
 app.use('/tutoring', tutoringRouter);
 app.use('/projects', projectsRouter);
 app.use('/photography', dogsRouter);
+app.use('/donations', donationsRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
