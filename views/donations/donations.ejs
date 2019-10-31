@@ -1,0 +1,10 @@
+<% include ../includes/header.ejs %>
+<script>
+    $(document).ready(function () {
+        $("ul li").removeClass("active");//this will remove the active class from previously active menu item
+        $('#donations').addClass('active');
+    });
+</script>
+
+<div>Please donate</div>
+<% include ../includes/footer.ejs %>
